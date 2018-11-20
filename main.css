@@ -12,11 +12,24 @@ flex-direction: column;
 
 .App{
 display: flex;
-justify-content: flex-start;
+justify-content: center;
+align-content: space-around;
 }
 
+.get{
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
 .parent{
   display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+      background-color: lightblue;
+  }
 }
 
 .form{
@@ -32,7 +45,7 @@ justify-content: flex-start;
 
 .account{
   display: flex;
-  align-items: center;
+  align-content: flex-end;
 }
 
 
